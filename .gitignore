@@ -8,4 +8,7 @@ local/
 *.py[co]
 
 # Configuration directives
-config/
+instance/
+
+# Database
+wishlist.db
