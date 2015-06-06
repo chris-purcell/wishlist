@@ -1,0 +1,11 @@
+# Virtualenv directories
+bin/
+include/
+lib/
+local/
+
+# Python bytecode
+*.py[co]
+
+# Configuration directives
+config/
