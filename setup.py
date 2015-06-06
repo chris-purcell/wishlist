@@ -1,3 +1,6 @@
+# perform required imports
+from contextlib import closing
+
 # Set up the database tables
 def init_db():
     with closing(connect_db()) as db:
