@@ -7,7 +7,7 @@ from getpass import getpass
 db = sqlite3.connect('wishlist.db')
 
 # create required database tables
-db.execute('create table if not exists wishlist (id integer primary key autoincrement, title text not null, text text not null, username integer not null)')
+db.execute('create table if not exists wishlist (id integer primary key autoincrement, title text not null, text text not null)')
 db.execute('create table if not exists users (id integer primary key autoincrement, username text not null, password text not null, email text not null)')
 
 # Create default admin user
